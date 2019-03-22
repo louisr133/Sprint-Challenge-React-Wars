@@ -36,7 +36,7 @@ function StarWars(props){
 // Array[2]
 
     return(
-        <div>
+        <div class="chr-contain animated flash">
             <h1>{props.chars.name}</h1> 
             <h2>Stats:</h2>
             <ul>

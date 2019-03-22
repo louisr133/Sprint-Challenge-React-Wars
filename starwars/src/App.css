@@ -10,10 +10,37 @@
 
 ul {
   list-style-type: none;
-  /* margin: 0;
-  padding: 0; */
 }
 
 li {
   text-align: left;
+}
+
+.chr-contain {
+  background-color: rgba(255,255,255,0.5);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes flash {
+  0%, 50%, 100% {
+     opacity: 1;
+  }
+  25%, 75% {
+     opacity: 0;
+  }
+}
+
+.flash {
+  animation-name: flash;
 }
